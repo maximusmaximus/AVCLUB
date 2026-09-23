@@ -1,0 +1,19 @@
+{
+  "name": "avclub",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Community engagement platform for AV projects",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "test": "turbo run test"
+  },
+  "devDependencies": {
+    "turbo": "^2.0.0"
+  }
+}
