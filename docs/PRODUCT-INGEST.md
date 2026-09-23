@@ -8,7 +8,8 @@ Website (front + back) for a real-world community that builds and develops AV pr
 - **User** — QR → signup view → profile → Google or email. That identity is the notification channel for next steps. Event code for scan check-in. Must be checked in on arrival. 18+ to sign up. Profile visibility is a user toggle (public or private).
 - **Admin** — creates events, schedules them on Google Calendar, tracks exact donations and all platform interactions, can make any user a Steward, pairs a desktop with an access code. Two admins can control the same event simultaneously. Admin mobile has start, pause, forward, rewind between phases.
 - **Steward** — any user Admin promotes. Separate login so admin can revoke one Steward's permission without affecting others. Check-in site via a link + key. Select a name or scan event code.
-- **Sponsor** — self-serve logo/ad upload, one ad per event, admin must approve before it goes live. Disapproval → advertiser resubmits a new ad with new specs → back through admin review. Pays via the three card methods or x402 to a crypto wallet shown in the admin dashboard; most things can be accepted that way.
+- **Sponsor** — self-serve logo/ad upload, one ad per event, admin must approve before it goes live. Disapproval → advertiser resubmits a new ad with new specs → back through admin review. Pays via the three card methods or x402 to a crypto wallet shown in the admin dashboard; most things can be accepted that way. **Delegates a judge** to the event.
+- **Judge** — delegated by the sponsor. Participates in the event and judges. Gives out the awards that are determined by the sponsors, five minutes after the public vote reveals the winners.
 - **Docent** — a pairing role (alongside participants, members, admin, sponsors, Stewards).
 - **Co-sponsorship member** — $200/month.
 - **General supporter** — $50/month; access to all projects created, delivered as an email digest. Digest is opt-in via a yes/no pop-up at signup. Everything a member participates in is tracked and they retain access to that history, including after upgrading from supporter to co-sponsorship.
@@ -45,6 +46,7 @@ Check-in required. Steward link + key. Name select or scan event code. Event cod
 - During the event → back to what's now + countdown to what's coming.
 - If admin mobile drops offline mid-event, the paired screen keeps running its own timer.
 - **Intermission**: a ten-minute break in the middle of the event; the sponsor screen loads with a ten-minute countdown timer centered on screen.
+- **Live voting**: after presentations, a three-minute public vote. Users drag presentations into their preferred order on their mobile device; that ordering reflects live on the paired big screen so everyone sees the vote in real time. Countdown from three minutes, then first, second, and third place are revealed on pedestals with a confetti celebration. Five minutes later, the judge gives out the sponsor-determined awards.
 
 ### 6. Event cycle (first desktop slide)
 Checkin (now) → Meet and Greet (15 min) → Sponsor Time (5 min) → Show and Tell (lightning version) → build time (2 hours) → Review time (5 min) → Award Time (5 min) → Party Time (3 hours).
@@ -83,6 +85,12 @@ Dozens per event. Multiple simultaneous events at different venues: not currentl
 - Ten-minute intermission mid-event; sponsor screen with centered countdown.
 - Show and Tell: lightning version; team submissions with member tagging.
 - Phone-side event-status view for all participants: current phase, time left, what's next.
+
+### 15. Judge & voting (locked in)
+- **Judge**: delegated by the sponsor; participates in the event, judges, and gives out sponsor-determined awards.
+- **Public vote**: three minutes, right after presentations. Users rank presentations by dragging them into order on their mobile; the live ordering mirrors on the paired big screen in real time.
+- Reveal: first, second, and third place shown on pedestals with a confetti celebration.
+- Five minutes after the reveal, the judge hands out the awards.
 
 ---
 
