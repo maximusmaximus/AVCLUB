@@ -31,6 +31,7 @@ Admin creates and puts events on Google Calendar. Events page: subscribe to the 
 - Memberships: co-sponsorship $200/month; general supporter $50/month.
 - Cancel membership → refund the money and cut access to that functionality immediately (no grace period).
 - Sponsor payments: three card methods or x402 to a crypto wallet provided in the admin dashboard.
+- **Party-only ticket**: $10 charge for access to just the Party Time phase (no deposit, no build participation).
 
 ### 4. Door / check-in
 Check-in required. Steward link + key. Name select or scan event code. Event codes **expire** (to minimize abuse). Users can check in after the event has started, but they are unable to participate in activities. Consent for event photos/recordings is collected at check-in.
