@@ -18,7 +18,7 @@ Website (front + back) for a real-world community that builds and develops AV pr
 ## Flows
 
 ### 1. Join
-QR → signup view → profile → Google or email → notifications for next steps. Age gate: 18+. Deposit and donation rules (including non-refundable donation on refund) stated early in the process, before payment.
+QR → signup view → profile → Google or email → notifications for next steps. Age gate: 18+. Deposit and donation rules (including non-refundable donation on refund) stated early in the process, before payment. Payment can be saved for later as an option (pay at the door).
 
 ### 2. Events / calendar
 Admin creates and puts events on Google Calendar. Events page: subscribe to the Google cal stream + a field for whatever is needed to hook the calendar.
@@ -43,10 +43,12 @@ Check-in required. Steward link + key. Name select or scan event code. Event cod
   - Sponsors get a preview viewport showing how their ad renders with pending info, from event start onward.
 - During the event → back to what's now + countdown to what's coming.
 - If admin mobile drops offline mid-event, the paired screen keeps running its own timer.
+- **Intermission**: a ten-minute break in the middle of the event; the sponsor screen loads with a ten-minute countdown timer centered on screen.
 
 ### 6. Event cycle (first desktop slide)
-Checkin (now) → Meet and Greet (15 min) → Sponsor Time (5 min) → Show and Tell (5 min × people who show up) → build time (2 hours) → Review time (5 min) → Award Time (5 min) → Party Time (3 hours).
-- Late arrival: no participation, no refund — stated up front at signup.
+Checkin (now) → Meet and Greet (15 min) → Sponsor Time (5 min) → Show and Tell (lightning version) → build time (2 hours) → Review time (5 min) → Award Time (5 min) → Party Time (3 hours).
+- Late arrival: no participation, no refund — stated up front at signup. **Grace window**: ~10 minutes after start where latecomers can still join Show and Tell or watch, though they cannot build.
+- Show and Tell is a **lightning version**; members can submit a team and tag other members who are part of the presentation.
 - If a phase runs long, admin gets a prompt with action buttons (extend, cut short, skip).
 - Rewind = reset that phase's timer (phase stays active, clock restarts).
 - Party Time → forward to drawing.grok.me.
@@ -73,6 +75,13 @@ Dozens per event. Multiple simultaneous events at different venues: not currentl
 - Account deletion → interaction history kept but anonymized.
 - Profile visibility: user-chosen (public or private).
 - Event photos/recordings: attendee consent required at check-in.
+
+### 14. User-centric flow (locked in)
+- Grace window for latecomers (~10 min) to join Show and Tell or watch.
+- Save payment for later as an option at signup.
+- Ten-minute intermission mid-event; sponsor screen with centered countdown.
+- Show and Tell: lightning version; team submissions with member tagging.
+- Phone-side event-status view for all participants: current phase, time left, what's next.
 
 ---
 
