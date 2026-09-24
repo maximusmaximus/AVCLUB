@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.1.0",
   "description": "Community engagement platform for AV projects",
+  "packageManager": "pnpm@12.6.0",
   "workspaces": [
     "apps/*",
     "packages/*"
@@ -14,6 +15,6 @@
     "test": "turbo run test"
   },
   "devDependencies": {
-    "turbo": "^2.0.0"
+    "turbo": "^2.11.3"
   }
 }

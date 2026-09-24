@@ -3,13 +3,27 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "expo start",
-    "build": "expo export",
-    "lint": "expo lint"
+    "dev": "next dev -p 3004",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
-    "expo": "^51.0.0",
-    "react": "^18.0.0",
-    "react-native": "0.74.0"
+    "@avclub/config": "workspace:*",
+    "@avclub/types": "workspace:*",
+    "@avclub/ui": "workspace:*",
+    "lucide-react": "^0.441.0",
+    "next": "^14.2.35",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.4",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.11",
+    "typescript": "^5.5.4"
   }
 }
