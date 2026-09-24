@@ -6,13 +6,13 @@ Website (front + back) for a real-world community that builds and develops AV pr
 
 ## Actors
 - **User** — QR → signup view → profile → Google or email. That identity is the notification channel for next steps. Event code for scan check-in. Must be checked in on arrival. 18+ to sign up. Profile visibility is a user toggle (public or private).
-- **Admin** — creates events, schedules them on Google Calendar, tracks exact donations and all platform interactions, can make any user a Steward, pairs a desktop with an access code. Two admins can control the same event simultaneously. Admin mobile has start, pause, forward, rewind between phases.
+- **Admin** — creates events, schedules them on a Google Calendar, tracks exact donations and all platform interactions, can make any user a Steward, pairs a desktop with an access code. Two admins can control the same event simultaneously. Admin mobile has start, pause, forward, rewind between phases.
 - **Steward** — any user Admin promotes. Separate login so admin can revoke one Steward's permission without affecting others. Check-in site via a link + key. Select a name or scan event code.
 - **Sponsor** — self-serve logo/ad upload, one ad per event, admin must approve before it goes live. Disapproval → advertiser resubmits a new ad with new specs → back through admin review. Pays via the three card methods or x402 to a crypto wallet shown in the admin dashboard; most things can be accepted that way. **Delegates a judge** to the event.
 - **Judge** — delegated by the sponsor. Participates in the event and judges. Gives out the awards that are determined by the sponsors, five minutes after the public vote reveals the winners.
 - **Docent** — a pairing role (alongside participants, members, admin, sponsors, Stewards).
 - **Co-sponsorship member** — $200/month.
-- **General supporter** — $50/month; access to all projects created, delivered as an email digest. Digest is opt-in via a yes/no pop-up at signup. Everything a member participates in is tracked and they retain access to that history, including after upgrading from supporter to co-sponsorship.
+- **General supporter** — $50/month; access to all the projects created, in email digest form. Digest is opt-in via a yes/no pop-up at signup. Everything a member participates in is tracked and they retain access to that history, including after upgrading from supporter to co-sponsorship.
 
 ---
 
@@ -22,7 +22,7 @@ Website (front + back) for a real-world community that builds and develops AV pr
 QR → signup view → profile → Google or email → notifications for next steps. Age gate: 18+. Deposit and donation rules (including non-refundable donation on refund) stated early in the process, before payment. Payment can be saved for later as an option (pay at the door).
 
 ### 2. Events / calendar
-Admin creates and puts events on Google Calendar. Events page: subscribe to the Google cal stream + a field for whatever is needed to hook the calendar.
+Admin creates and puts events on a Google Calendar. Events page: subscribe to the Google cal stream + a field for whatever is needed to hook the calendar.
 
 ### 3. Money
 - Event signup: **$10 refundable deposit**. Refund is automatic, triggered by the payment method used. If a refund fails (e.g., closed card), the system retries automatically.
@@ -69,7 +69,7 @@ User path and admin path to review all submissions.
 Home-page form with captcha → posts to a **private** GitHub repo.
 
 ### 11. MCP
-MCP access for all user types (participants, members, admin, sponsors, Docents, Steward, co-sponsorship, general supporter). Scope not yet specified.
+MCP access for all user types. Whatever that role can do in the application, they can do through MCP, including future functions. The same pairing code that binds a device also lets them integrate MCP into the service they want to use it on.
 
 ### 12. Scale (current)
 Dozens per event. Multiple simultaneous events at different venues: not currently, but flagged as a future expansion.
@@ -95,6 +95,7 @@ Dozens per event. Multiple simultaneous events at different venues: not currentl
 ---
 
 ## Open / unspecified
-- MCP access scope per role.
 - Exact templates/cadence for auto-emails (only that create + send are tracked).
 - Multi-venue simultaneous events (future).
+- Payment processor and email provider not selected.
+- x402 wallet key management and confirmation flow unspecified.
