@@ -2,7 +2,14 @@ node_modules/
 .next/
 dist/
 .turbo/
+.vercel/
+.tanstack/
+.grok/
+artifacts/
+attachments/
+screenshots/
 .env
-.env.local
+.env.*
 *.log
 .DS_Store
+.project_id

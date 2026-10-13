@@ -1,0 +1,24 @@
+ALTER TABLE profiles ADD COLUMN IF NOT EXISTS visibility_set BOOLEAN NOT NULL DEFAULT FALSE;
+
+ALTER TABLE participations ADD COLUMN IF NOT EXISTS door_code TEXT;
+ALTER TABLE participations ADD COLUMN IF NOT EXISTS checked_in BOOLEAN NOT NULL DEFAULT FALSE;
+ALTER TABLE participations ADD COLUMN IF NOT EXISTS can_build BOOLEAN NOT NULL DEFAULT FALSE;
+ALTER TABLE participations ADD COLUMN IF NOT EXISTS door_call TEXT;
+
+CREATE TABLE IF NOT EXISTS rankings (
+  user_id TEXT NOT NULL,
+  event_slug TEXT NOT NULL,
+  places TEXT NOT NULL,
+  PRIMARY KEY (user_id, event_slug)
+);
+
+CREATE TABLE IF NOT EXISTS judge_picks (
+  event_slug TEXT PRIMARY KEY,
+  title TEXT NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS night_fold (
+  event_slug TEXT PRIMARY KEY,
+  folded_at TIMESTAMPTZ NOT NULL DEFAULT now(),
+  snapshot TEXT NOT NULL DEFAULT ''
+);

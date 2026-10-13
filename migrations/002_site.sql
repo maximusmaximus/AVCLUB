@@ -1,0 +1,14 @@
+CREATE TABLE IF NOT EXISTS site_settings (
+  id INTEGER PRIMARY KEY,
+  live BOOLEAN NOT NULL DEFAULT FALSE
+);
+
+INSERT INTO site_settings (id, live)
+VALUES (1, FALSE)
+ON CONFLICT (id) DO NOTHING;
+
+CREATE TABLE IF NOT EXISTS staff_sessions (
+  token TEXT PRIMARY KEY,
+  username TEXT NOT NULL,
+  expires_at TIMESTAMPTZ NOT NULL
+);
